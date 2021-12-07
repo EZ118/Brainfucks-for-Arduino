@@ -137,28 +137,3 @@ aaa指的是文件名（目前没有用）
 |225625          |
 +----------------+
 */
-
-
-/*void run(String code) {
-  int i, j;
-  for(i = 0; i < sizeof(code); i ++) {
-    display.clearDisplay();
-    if(code[i] == '>') var = InputNum();
-    else if(code[i] == '<') display.print(var);
-    else if(code[i] == '+') var ++;
-    else if(code[i] == '-') var --;
-    else if(code[i] == ']') {
-      String while_code1 = "", while_code2 = "";      //编译器循环语句指令寄存 
-      for(j = i + 1; ; j ++){
-        if(code[j] == ']') break;
-        else while_code1 += code[j];
-      }
-      for(int ss = int(code[i - 1]) - 48; ss > 0; ss --) while_code2 += while_code1;
-      code.replace("[" + while_code1 + "]" , while_code2);
-      i -= 1;
-    }
-    display.display();
-  }
-  acode = code;
-  display.display();
-}*/
